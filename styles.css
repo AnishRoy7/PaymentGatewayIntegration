@@ -1,0 +1,138 @@
+.heading {
+    margin: 10px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    color:blue;
+
+}
+.container{
+    text-align: center;
+}
+.navbar{
+    height:12%;
+    display: flex;
+    align-items: center;
+}
+.background{
+    height:100vh;
+    width:100%;
+    background-image: url(nathaniel-tetteh-KHRKOJHhmK4-unsplash.jpg);
+    background-size: 100%;
+    background-position: center;
+    transition: 5s;
+
+    animation-name:animate ;
+    animation-direction:alternate-inverse ;
+    animation-duration: 35s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function:ease-in-out ;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url(su-nyoto-kY8m5uDIW7Y-unsplash.jpg);
+    }
+    25%{
+        background-image: url(doug-linstedt-jEEYZsaxbH4-unsplash.jpg);
+    }
+    50%{
+        background-image: url(nathaniel-tetteh-KHRKOJHhmK4-unsplash.jpg);
+    }
+    75%{
+        background-image: url(christian-lue-P0JL8np1N6k-unsplash.jpg);
+    }
+    100%{
+        background-image: url(nathaniel-tetteh-KHRKOJHhmK4-unsplash.jpg);
+    }
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.x{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    margin-right:20px;
+}
+  .logo{
+      width:60px;
+      height:60px;
+      cursor:pointer;
+      margin-left: 30px;
+      margin-top:10px;
+  }
+  .btn-success{
+        border-radius: 15px;
+        text-align: center;
+  }
+body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width:100%;
+}
+#bot{
+    color:cornsilk;
+    text-align: right;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.social{
+    background-color:rgb(31,20,20);
+}
+.fa-facebook{
+    margin-left:20px;
+    font-size:39px;
+}
+.icons{
+    margin-left:550px;
+}
+.fa-twitter{
+    margin-left:20px;
+    font-size:39px;
+}
+.fa-instagram{
+    margin-left:20px;
+    font-size: 39px;
+}
+.fa-linkedin{
+    margin-left:20px;
+    font-size: 39px;
+}
+.fa-youtube{
+    margin-left:20px;
+    font-size:39px;
+}
+.navbar-toggler{
+    color:violet;
+    background-color: blueviolet;
+}
+.nav-item{
+    background-color: yellow;
+    margin-left: 900px;
+    margin-right:47px;
+    border-color:black;
+}
+.contact{
+    font-family:Arial;
+    color:white;
+    margin-left:500px ;
+    margin-right:400px;
+}
+#sub{
+    margin-left: 175px;
+}
+#result{
+    margin-left:100px;
+}
